@@ -1,6 +1,6 @@
-class Solution:
+class Solution(object):
     def countMonobit(self, n):
-        count = 1  
+        count = 1  # 0
 
         x = 1
         while x <= n:
